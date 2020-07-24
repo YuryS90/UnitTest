@@ -7,8 +7,9 @@ class ArrayCacl
 
     /**
      * 	Сумма элементов массива
+     * @var array<Foo>
      */
-    public function arraySum(array $array)
+    public function arraySum(array $array) : float
     {
         return array_sum($array);
     }
@@ -16,7 +17,7 @@ class ArrayCacl
     /**
      * 	Произведение элементов массива
      */
-    public function arrayMult(array $array)
+    public function arrayMult(array $array) : float
     {
         return array_product($array);
     }
