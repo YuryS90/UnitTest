@@ -15,6 +15,7 @@
     "psalm": "psalm",
     "phpstan": "phpstan analyse -c phpstan.neon",
     "codestyle": "phpcs",
-    "codestylefix": "phpcbf"
+    "codestylefix": "phpcbf",
+    "psalter": "psalter --issues=all"
   }
 }
